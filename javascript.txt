@@ -1,0 +1,11 @@
+// Get the button element from the HTML document
+const button = document.querySelector('button');
+
+// Add a click event listener to the button
+button.addEventListener('click', () => {
+  // Get the input element from the HTML document
+  const input = document.querySelector('input');
+
+  // Get the value of the input element and display an alert with the value
+  alert(`You entered: ${input.value}`);
+});
