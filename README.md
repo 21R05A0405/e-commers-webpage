@@ -1,1 +1,40 @@
 # e-commers-webpage
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Web Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+		<h1>Welcome to My Web Page</h1>
+	</header>
+	<main>
+		<section>
+			<h2>About Us</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Donec commodo nulla id diam luctus, vel tristique leo iaculis. Integer nec magna vitae orci imperdiet tempor eu id turpis. Nam id fermentum leo. Sed ac dolor convallis, aliquet quam eget, auctor turpis. Sed commodo vestibulum arcu, eget commodo ex mollis sed.</p>
+		</section>
+		<section>
+			<h2>Products</h2>
+			<ul>
+				<li>Product 1</li>
+				<li>Product 2</li>
+				<li>Product 3</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 My Web Page. All rights reserved.</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
